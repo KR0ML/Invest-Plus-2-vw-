@@ -14,6 +14,11 @@ button {
     cursor: pointer;
 }
 
+.arrow {
+    width: 5.833vw;
+    margin: 0 auto;
+}
+
 /*================================== 
                                 WORK
 ==================================*/
@@ -38,7 +43,12 @@ button {
     padding: 1.302vw 0;
 }
 
+.logo img {
+    width: 10.052vw;
+}
+
 .logo-text {
+    width: 5.260vw;
     border-left: 0.104vw solid var(--main);
     padding-left: 2.083vw;
     margin-left: 2.083vw;
@@ -101,15 +111,13 @@ button {
     margin: 0 0.781vw 0 0.521vw;
 }
 
-.social__item svg {
-    width: 1.146vw;
-    height: 1.042vw;
-    fill: rgba(0, 0, 0, 0.5);
-    transition: all .1s linear;
+.social__item {
+    display: flex;
 }
 
-.social__item svg:hover {
-    fill: black;
+.social__item img {
+    width: 1.146vw;
+    fill: var(--on-background);
     transition: all .1s linear;
 }
 
@@ -198,7 +206,7 @@ small::before {
     background-color: var(--main-50);
     color: var(--on-pm-and-sc-50);
     box-shadow: 0px 0.729vw 0.938vw -0.052vw rgba(0, 0, 0, 0.16);
-    padding: 1.042vw 35px;
+    padding: 1.042vw 1.823vw;
     transition: all .1s linear;
 }
 
@@ -209,11 +217,11 @@ small::before {
     transition: all .1s linear;
 }
 
-.main-block__container svg {
+.main-block__container .arrow-white {
+    width: 5.729vw;
     fill: var(--on-pm-and-sc-50);
-    width: 100%;
     margin-top: 7.031vw;
-    margin-bottom: 5.729vw;
+    margin-bottom: 5.9vw;
 }
 
 /*================================== 
@@ -234,6 +242,7 @@ small::before {
 }
 
 .element__top {
+    width: 16.042vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -241,6 +250,7 @@ small::before {
 }
 
 .element__bot {
+    width: 16.042vw;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -372,9 +382,9 @@ small::before {
     font-weight: 500;
 }
 
-.about__container svg {
+.about__container .arrow-white {
+    width: 5.729vw;
     fill: var(--on-pm-and-sc-50);
-    width: 100%;
     margin-top: 5.208vw;
     margin-bottom: 11.302vw;
 }
@@ -444,9 +454,9 @@ legend {
     background-color: var(--background);
 }
 
-.cooperation__container svg {
+.cooperation__container .arrow-blue {
+    width: 5.729vw;
     fill: var(--main);
-    width: 100%;
     margin-top: 6.250vw;
     margin-bottom: 6.250vw;
 }
@@ -460,8 +470,8 @@ legend {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 140px;
-    padding-bottom: 150px;
+    padding-top: 7.292vw;
+    padding-bottom: 7.813vw;
 }
 
 .contact__wrapper {
@@ -487,6 +497,10 @@ legend {
 
 .content__left {
     display: flex;
+}
+
+.xuy {
+    width: 49.792vw;
 }
 
 .content__right {
@@ -582,6 +596,20 @@ legend {
 
 .footer__left {
     display: flex;
+    align-items: center;
+}
+
+.footer__hr {
+    width: 0.104vw; 
+    height: 1.042vw;
+    background-color: var(--main);
+    border: none;
+    margin-right: 1.302vw;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
 }
 
 .footer__left,
