@@ -397,6 +397,15 @@ small::before {
     position: relative;
 }
 
+.cooperation__top {
+    width: 16.042vw;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    top: 0;
+    z-index: -3;
+}
+
 .cooperation__container {
     display: flex;
     flex-direction: column;
@@ -465,6 +474,19 @@ legend {
                          COOPERATION
 ==================================*/
 
+._contact {
+    position: relative;
+}
+
+.contact__bot {
+    width: 16.042vw;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 0;
+    bottom: 0;
+    z-index: -3;
+}
+
 .contact__container {
     overflow: hidden;
     display: flex;
@@ -499,7 +521,7 @@ legend {
     display: flex;
 }
 
-.xuy {
+.content-img {
     width: 49.792vw;
 }
 
